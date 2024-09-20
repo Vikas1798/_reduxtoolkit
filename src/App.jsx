@@ -27,6 +27,8 @@ const App = () => {
 
     return (
         <div style={{ width: '30%', margin: 'auto', position: "relative" }}>
+            <h1 style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}> --- Redux Toolkit --- </h1>
+            <hr style={{ marginBottom: "20px" }} />
             <input style={{ marginBottom: '10px', width: '100%', padding: '6px', borderRadius: '4px' }} type="text" value={name} placeholder="Please enter your name" onChange={(e) => setName(e.target.value)} />
             <div style={{ margin: 'auto', width: '40%' }}>
                 <button onClick={() => add()} style={{ width: '100%', margin: 'auto', cursor: 'pointer', border: 'none', borderRadius: '4px', color: 'white', background: 'blue', padding: '5px' }}>Add User</button>
